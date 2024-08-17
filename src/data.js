@@ -3,7 +3,7 @@ export const projects = [
     title: "Sentiment Analysis for Google Maps Reviews",
     subtitle: "Natural Language Processing",
     description: "The tourism application finder with sentiment analysis (NLP) using Tensorflow. Model develop from data scratch, CNN model, and achieved 80% accuracy",
-    image: "./project-1.png",
+    image: "./project-1.gif",
     link: "https://github.com/BangkitCapstoneFIT/ML-findindonesiatourism",
   },
   {
@@ -15,17 +15,17 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
   {
-    title: "Tableau Projects",
-    subtitle: "Tableau Projects",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: "Freecodecamp Projects",
+    subtitle: "HTML, CSS, and Data Analytics with Python",
+    description: "Basic HTML and CSS to build a webpage and fundamental data analysis with Python, use: Numpy, Pandas, Matplotlib, and Seaborn to process and visualize data",
     image: "./project-3.gif",
     link: "https://reactbootcamp.com",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "Freecodecamp Certifications Projects",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+    title: "2D Pixel Design Game",
+    subtitle: "Telematics Project: Sign Language Game",
+    description: "Designed: UI/UX, Character and object, maps game. Involves a series of evaluations conducted by multiple lecturers and also showcase that project in Computer Engineering Exhibition. ",
+    image: "./project-4.png",
     link: "https://reactbootcamp.com",
   },
 ];
@@ -47,4 +47,4 @@ export const testimonials = [
   },
 ];
 
-export const skills = ["Python", "HTML CSS", "Natural Language Processing", "Computer Vision", "Project Management", "dfdfd"];
+export const skills = ["Programming: C/C++, Python", "Web: HTML CSS", "ML: Natural Language Processing  and Computer Vision", "MySQL", "Microsoft Office: Word, PowerPoint, Excel", "Project Management and Teamwork"];
