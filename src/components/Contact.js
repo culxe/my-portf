@@ -1,5 +1,7 @@
 import { MailIcon, PhoneIcon } from "@heroicons/react/solid";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+// import { ReactComponent as LinkedinIcon } from ".public/icon-linkedin.svg";
+// import { ReactComponent as GithubIcon } from ".public/icon-github.svg";
+
 import React from "react";
 
 export default function Contact() {
@@ -24,11 +26,11 @@ export default function Contact() {
                     <span>+628-3185 2764-97</span>
                   </a>
                   <a href="https://www.linkedin.com/in/indiana-namaul/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-white-400">
-                    <FaLinkedin className="w-6 h-6" />
+                    {/* <LinkedinIcon className="w-6 h-6" /> */}
                     <span>LinkedIn</span>
                   </a>
                   <a href="https://github.com/culxe" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-white-400">
-                    <FaGithub className="w-6 h-6" />
+                    {/* <GithubIcon className="w-6 h-6" /> */}
                     <span>GitHub</span>
                   </a>
                 </div>
