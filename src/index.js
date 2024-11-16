@@ -1,8 +1,7 @@
-// Sesudah (untuk React 18)
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./index.css";
+import "./index.css"; // Mengimpor file CSS Tailwind
+import App from "./App"; // Komponen utama aplikasi
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

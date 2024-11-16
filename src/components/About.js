@@ -4,9 +4,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="relative bg-black bg-cover bg-center font-rubik text-white">
+    <section id="about" className="relative bg-black bg-cover bg-center font-rubik text-black">
       {/* Background gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#E6F1F0] to-[#367C88]/30 via-[#F3F8F8] backdrop-blur-md bg-opacity-70"></div>
+      <div className="absolute inset-0 bg-customBlue"></div>
 
       {/* Content container */}
       <div className="relative z-10 container mx-auto flex flex-col items-center text-center py-40 px-6">
@@ -22,10 +22,10 @@ const About = () => {
 
         {/* Buttons for Contact and Projects */}
         <div className="flex justify-center gap-4">
-          <a href="#contact" className="inline-flex items-center text-white bg-[#8B4513] hover:bg-[#A0522D] transition duration-300 shadow-md hover:shadow-lg py-2 px-6 rounded-md">
+          <a href="#contact" className="inline-flex items-center text-white bg-customBrown hover:bg-customHover transition duration-300 shadow-md hover:shadow-lg py-2 px-6 rounded-md">
             Contact Me
           </a>
-          <a href="#projects" className="inline-flex items-center text-white bg-[#8B4513] hover:bg-[#A0522D] transition duration-300 shadow-md hover:shadow-lg py-2 px-6 rounded-md">
+          <a href="#projects" className="inline-flex items-center text-white  bg-customBrown hover:bg-customHover transition duration-300 shadow-md hover:shadow-lg py-2 px-6 rounded-md">
             My Projects
           </a>
         </div>

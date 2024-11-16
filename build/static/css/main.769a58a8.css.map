@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.769a58a8.css","mappings":"yGAAA,cAAc,CACd,oBAAoB,CACpB,mBAAmB","sources":["index.css"],"sourcesContent":["@tailwind base;\n@tailwind components;\n@tailwind utilities;\n@import url(\"https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap\");\n"],"names":[],"sourceRoot":""}

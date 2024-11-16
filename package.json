@@ -1,43 +1,29 @@
 {
-  "homepage": "https://culxe.github.io/my-portf",
-  "name": "my-portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@craco/craco": "^7.1.0",
-    "@heroicons/react": "^2.1.5",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-icons": "^5.3.0",
-    "react-router-dom": "^6.27.0",
-    "react-scripts": "^5.0.1"
-  },
+  "name": "webport",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "start": "craco start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "craco build",
-    "test": "craco test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "autoprefixer": "^10.4.20",
-    "gh-pages": "^6.1.1",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.14"
-  },
-  "description": "Tutorial source by [Freecodecamp](https://www.freecodecamp.org/news/build-portfolio-website-react/).",
-  "main": "craco.config.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.28.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  },
   "browserslist": {
     "production": [
       ">0.2%",

@@ -6,7 +6,7 @@ import ProjectDetail from "./components/ProjectDetail"; // Halaman Project Detai
 import ProjectDetail2 from "./components/ProjectDetail2";
 import "./index.css";
 
-export default function App() {
+function App() {
   return (
     <BrowserRouter>
       <main className="text-gray-400 bg-gray-900 body-font">
@@ -20,3 +20,4 @@ export default function App() {
     </BrowserRouter>
   );
 }
+export default App;
